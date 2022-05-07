@@ -1,0 +1,65 @@
+.sendero1 { 
+    vertical-align: middle;
+    width: 40%;
+    float: right;
+    
+ }
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    
+    }
+    
+.cabecera{
+    
+    height: 12em;
+    padding: 5em;
+    font-size: 2em;
+   /* background-image: url("/assets/img/sendero1.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background: #22c1c3;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #fdbb2d82, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(120deg,
+        rgba(249, 249, 59, 0.382) 0%,
+        rgba(81, 189, 236, 0.125) 100%),
+      url("/assets/img/sendero1.jpg");
+      color: rgb(37, 41, 37);
+      text-align: center;
+}
+.cabecera h1{
+    
+    margin:0px;
+    font-weight: 400;
+}
+
+ .productos{
+     width: 90%;
+     margin: auto;
+     
+ }
+ .productos td{
+     /*width: 50%;*/
+     padding: 2em;
+ }
+ .productos img{
+     width: 45%;
+     border: solid 1px #ddd;
+ }
+ .footer{
+     height: 3em;
+     line-height: 3em;
+     background-color: green;
+     color: white;
+     text-align: center;
+     font-weight: 900;
+ }
+ @media(max-width:560px){
+    .cabecera {
+        padding: 30px 10px 20px 10px;
+}
+    } 
+    .articulo{
+        font-size: 32px;
+    }
+ 
